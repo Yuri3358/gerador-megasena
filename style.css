@@ -2,7 +2,6 @@ body {
     background-color: rgb(42, 42, 42);
 }
 
-
 #content {
     background-color: rgb(47, 47, 47);
     color: white;
@@ -12,6 +11,7 @@ body {
     border-style: groove;
     border-color: black;
     height: 8cm;
+    margin: auto;
 }
 
 #result {
