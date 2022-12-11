@@ -3,6 +3,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"))
 function App() {
     const [listNumbers, setListNumbers] = React.useState()
     const [listColor, setListColor] = React.useState()
+
     function GenNumbers() {
         const list = []
         for (let i = 0; i < 6; i++) {
@@ -14,7 +15,7 @@ function App() {
 
     return (
         <section id="content">
-            <h1>Gerador de números da Mega-Sena</h1>
+            <h1>Gerador de Números da Mega-Sena</h1>
             <div id="result">
                 <span style={listColor}>{listNumbers}</span>
             </div>
