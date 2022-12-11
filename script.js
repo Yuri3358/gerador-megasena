@@ -16,7 +16,7 @@ function App() {
             <div id="result">
                 <span id="generated_numbers">{listNumbers}</span>
             </div>
-            <button onClick={() => GenNumbers()}>Gerar</button>
+            <button id="generate" onClick={() => GenNumbers()}>Gerar</button>
         </section>
     )
 }
