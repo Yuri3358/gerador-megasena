@@ -4,18 +4,19 @@ body {
 
 #content {
     background-color: rgb(47, 47, 47);
+    border-style: groove;
+    border-color: black;
     color: white;
     font-size: 30px;
     width: 20cm;
-    text-align: center;
-    border-style: groove;
-    border-color: black;
     height: 8cm;
+    text-align: center;
     margin: auto;
 }
 
 #result {
     background-color: rgb(73, 73, 73);
+    line-height: 2cm;
     font-size: 35px;
     width: 12cm;
     height: 2cm;
@@ -23,7 +24,6 @@ body {
     border-radius: 4px;
     border-style: groove;
     margin-left: 4cm;
-    line-height: 2cm;
 }
 
 #numbers {
@@ -40,4 +40,3 @@ body {
 #generate:hover{
     background-color: rgb(197, 195, 195);
 }
-
