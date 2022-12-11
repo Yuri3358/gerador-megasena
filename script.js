@@ -4,7 +4,7 @@ function App() {
     const [listNumbers, setListNumbers] = React.useState()
     const [listColor, setListColor] = React.useState()
 
-    function GenNumbers() {
+    function genNumbers() {
         const list = []
         for (let i = 0; i < 6; i++) {
             list.push(Math.round(Math.random()*60))
@@ -19,7 +19,7 @@ function App() {
             <div id="result">
                 <span style={listColor}>{listNumbers}</span>
             </div>
-            <button id="generate" onClick={() => GenNumbers()}>Sortar números</button>
+            <button id="generate" onClick={() => genNumbers()}>Sortar números</button>
         </section>
     )
 }
