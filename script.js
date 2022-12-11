@@ -1,7 +1,7 @@
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
 function App() {
-    const [listNumbers, setListNumbers] = React.useState("Clique em gerar")
+    const [listNumbers, setListNumbers] = React.useState()
     const [listColor, setListColor] = React.useState()
     function GenNumbers() {
         const list = []
